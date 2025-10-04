@@ -6,7 +6,7 @@ All materials in this repository are intendet strictly for educational purposes 
 I do not encourage or endorse the use of these techniques for malicious puposes.
 
 ## Structure
-'''
+```
 cybersecurity-tutorials/
 │
 ├── sql-injection/
@@ -19,7 +19,7 @@ cybersecurity-tutorials/
 │
 └── xml-bombs/
     └── ...
-'''
+```
 
 ## Topics covered
 
