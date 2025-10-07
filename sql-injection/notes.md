@@ -19,7 +19,13 @@ What can go wrong if an application is vulnerable to SQL Injection?
 Real-world incidents show that SQLi has been used to compromise high‑profile services, leak credentials, and extract sensitive records. Even security-conscious organisations have suffered when SQLi was present.
 
 ## Example (educational only)
-
+passing password that changes logic of querry ' or 1=1 --
+``` sql
+SELECT *
+  FROM users
+ WHERE email    = 'user@email.com'
+   AND password = '' or 1=1 --'
+```
 
 ## Prevention and mitigation
 Key defensive measures to prevent SQL Injection:
